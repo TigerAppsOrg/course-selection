@@ -1,5 +1,3 @@
-# course-selection
- Princeton Course Selection by TigerApps
 # CourseSelection
 
 CourseSelection is a web app that helps Princeton University students plan out their four-year course schedules. It began as a COS 333 project by Richard Chu, Barak Nehoran, Adeniji Ogunlana, and Daniel Leung.
