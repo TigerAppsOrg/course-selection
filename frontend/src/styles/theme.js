@@ -1,4 +1,4 @@
-export const TIGERPATH_THEME = {
+export const COURSESELECTION_THEME = {
   /* Navigation colors */
   darkGreyText: '#555555',
   lightGrey: '#6c757d',

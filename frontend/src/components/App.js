@@ -6,7 +6,7 @@ import MainView from 'components/MainView';
 import Requirements from 'components/Requirements';
 import { DragDropContext } from 'react-beautiful-dnd';
 import { ThemeProvider } from 'styled-components';
-import { TIGERPATH_THEME } from 'styles/theme';
+import { COURSESELECTION_THEME } from 'styles/theme';
 import { DEFAULT_SCHEDULE } from 'utils/SemesterUtils';
 
 const RADIX = 10;
@@ -133,7 +133,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <ThemeProvider theme={TIGERPATH_THEME}>
+      <ThemeProvider theme={COURSESELECTION_THEME}>
         <React.Fragment>
           <h1 className="print-only">My Four Year Schedule</h1>
           <p className="print-only">
