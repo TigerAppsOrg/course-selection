@@ -1,12 +1,12 @@
 # course-selection
  Princeton Course Selection by TigerApps
-# TigerPath
+# CourseSelection
 
-TigerPath is a web app that helps Princeton University students plan out their four-year course schedules. It began as a COS 333 project by Richard Chu, Barak Nehoran, Adeniji Ogunlana, and Daniel Leung.
+CourseSelection is a web app that helps Princeton University students plan out their four-year course schedules. It began as a COS 333 project by Richard Chu, Barak Nehoran, Adeniji Ogunlana, and Daniel Leung.
 
-You can visit TigerPath at [tigerpath.io](https://www.tigerpath.io).
+You can visit CourseSelection at [courseselection.io](https://www.courseselection.io).
 
-To learn about contributing to TigerPath, take a look at the [contributing guidelines](https://github.com/TigerPathApp/tigerpath/blob/master/CONTRIBUTING.md).
+To learn about contributing to CourseSelection, take a look at the [contributing guidelines](https://github.com/CourseSelectionApp/courseselection/blob/master/CONTRIBUTING.md).
 
 ## Setup
 
@@ -14,7 +14,7 @@ To learn about contributing to TigerPath, take a look at the [contributing guide
 
 1. `git clone` this repository. Install [Python 3.6](https://www.python.org), [node.js](https://nodejs.org/en/), and [pipenv](https://github.com/pypa/pipenv) (which helps you manage your dependencies).
 
-2. Run `cd tigerpath && pipenv install` to install all of the current dependencies from Pipfile.lock.
+2. Run `cd courseselection && pipenv install` to install all of the current dependencies from Pipfile.lock.
 
 3. Run `cd frontend && npm install` to install the necessary node modules for React to work.
 
@@ -38,7 +38,7 @@ python manage.py migrate                                    # Migrates the datab
 #### Custom django-admin commands
 
 ```
-python manage.py tigerpath_get_courses                      # Scrapes courses and puts them in the database
+python manage.py courseselection_get_courses                      # Scrapes courses and puts them in the database
 ```
 
 #### Load static data

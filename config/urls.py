@@ -1,4 +1,4 @@
-"""tigerpath URL Configuration
+"""courseselection URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
@@ -19,7 +19,7 @@ from django.conf import settings
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
-    path('', include('tigerpath.urls')),
+    path('', include('courseselection.urls')),
 ]
 
 if settings.ADMIN_ENABLED:

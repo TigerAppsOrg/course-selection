@@ -138,13 +138,13 @@ export default class App extends Component {
           <h1 className="print-only">My Four Year Schedule</h1>
           <p className="print-only">
             This schedule was created using{' '}
-            <b>TigerPath - Princeton's Four-Year Course Planner</b> at{' '}
+            <b>CourseSelection - Princeton's Four-Year Course Planner</b> at{' '}
             <a
-              href="http://www.tigerpath.io/"
+              href="http://www.courseselection.io/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              tigerpath.io
+              courseselection.io
             </a>
             .
           </p>

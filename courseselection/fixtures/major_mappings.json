@@ -1,0 +1,372 @@
+[
+  {
+    "model": "courseselection.major",
+    "pk": 1,
+    "fields": {
+      "name": "African American Studies",
+      "code": "AAS",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 2,
+    "fields": {
+      "name": "Anthropology",
+      "code": "ANT",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 3,
+    "fields": {
+      "name": "Architecture",
+      "code": "ARC",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 4,
+    "fields": {
+      "name": "Art and Archaeology",
+      "code": "ART",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 5,
+    "fields": {
+      "name": "Astrophysical Sciences",
+      "code": "AST",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 6,
+    "fields": {
+      "name": "Chemistry",
+      "code": "CHM",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 7,
+    "fields": {
+      "name": "Classics",
+      "code": "CLA",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 8,
+    "fields": {
+      "name": "Comparative Literature",
+      "code": "COM",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 9,
+    "fields": {
+      "name": "Computer Science - A.B.",
+      "code": "COS-AB",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 10,
+    "fields": {
+      "name": "East Asian Studies",
+      "code": "EAS",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 11,
+    "fields": {
+      "name": "Ecology and Evolutionary Biology",
+      "code": "EEB",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 12,
+    "fields": {
+      "name": "Economics",
+      "code": "ECO",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 13,
+    "fields": {
+      "name": "English",
+      "code": "ENG",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 14,
+    "fields": {
+      "name": "French and Italian",
+      "code": "FIT",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 15,
+    "fields": {
+      "name": "Geosciences",
+      "code": "GEO",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 16,
+    "fields": {
+      "name": "German",
+      "code": "GER",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 17,
+    "fields": {
+      "name": "History",
+      "code": "HIS",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 18,
+    "fields": {
+      "name": "Mathematics",
+      "code": "MAT",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 19,
+    "fields": {
+      "name": "Molecular Biology",
+      "code": "MOL",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 20,
+    "fields": {
+      "name": "Music",
+      "code": "MUS",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 21,
+    "fields": {
+      "name": "Near Eastern Studies",
+      "code": "NES",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 22,
+    "fields": {
+      "name": "Neuroscience",
+      "code": "NEU",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 23,
+    "fields": {
+      "name": "Philosophy",
+      "code": "PHI",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 24,
+    "fields": {
+      "name": "Physics",
+      "code": "PHY",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 25,
+    "fields": {
+      "name": "Politics",
+      "code": "POL",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 26,
+    "fields": {
+      "name": "Psychology",
+      "code": "PSY",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 27,
+    "fields": {
+      "name": "Religion",
+      "code": "REL",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 28,
+    "fields": {
+      "name": "Slavic Languages and Literatures",
+      "code": "SLA",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 29,
+    "fields": {
+      "name": "Sociology",
+      "code": "SOC",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 30,
+    "fields": {
+      "name": "Spanish and Portuguese",
+      "code": "SPO",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 31,
+    "fields": {
+      "name": "Public and International Affairs",
+      "code": "WWS",
+      "degree": "AB",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 32,
+    "fields": {
+      "name": "Chemical and Biological Engineering",
+      "code": "CBE",
+      "degree": "BSE",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 33,
+    "fields": {
+      "name": "Civil and Environmental Engineering",
+      "code": "CEE",
+      "degree": "BSE",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 34,
+    "fields": {
+      "name": "Computer Science - B.S.E.",
+      "code": "COS-BSE",
+      "degree": "BSE",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 35,
+    "fields": {
+      "name": "Electrical Engineering",
+      "code": "ELE",
+      "degree": "BSE",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 36,
+    "fields": {
+      "name": "Mechanical and Aerospace Engineering",
+      "code": "MAE",
+      "degree": "BSE",
+      "supported": true
+    }
+  },
+  {
+    "model": "courseselection.major",
+    "pk": 37,
+    "fields": {
+      "name": "Operations Research and Financial Engineering",
+      "code": "ORF",
+      "degree": "BSE",
+      "supported": true
+    }
+  }
+]
