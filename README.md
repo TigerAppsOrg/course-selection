@@ -50,3 +50,6 @@ However, in the rare case that you do, then you can run the following command:
 ```
 git push heroku <local_branch_name>:master                    # Push to the Heroku server
 ```
+
+## TODO
+Admin setup - through Django
