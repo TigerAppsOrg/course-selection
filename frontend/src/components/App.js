@@ -136,27 +136,23 @@ export default class App extends Component {
       <ThemeProvider theme={COURSESELECTION_THEME}>
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container">
-            <a className="navbar-brand" href="{% url 'index' %}">
+            <a className="navbar-brand" href="/">
               CourseSelection
             </a>
             <div>
               <a
                 className="btn nav-btn"
-                href="{% url 'about' %}"
+                href="/courses"
                 rel="noopener noreferrer"
               >
                 Courses
               </a>
-              <a
-                className="btn nav-btn"
-                href="https://goo.gl/forms/T0pnhwdBYIS8mM6q1"
-                rel="noopener noreferrer"
-              >
+              <a className="btn nav-btn" href="/list" rel="noopener noreferrer">
                 List
               </a>
               <a
                 className="btn nav-btn"
-                href="{% url 'index' %}"
+                href="/tigerpath"
                 rel="noopener noreferrer"
               >
                 TigerPath
