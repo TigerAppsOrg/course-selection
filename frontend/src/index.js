@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from 'components/App';
+import 'styles/App.css';
 import 'styles/Courses.css';
 import 'styles/Requirements.css';
 import 'styles/Print.css';
