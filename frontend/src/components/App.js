@@ -136,7 +136,7 @@ export default class App extends Component {
       <ThemeProvider theme={COURSESELECTION_THEME}>
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container">
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="/courses">
               CourseSelection
             </a>
             <div>
