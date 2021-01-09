@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from 'components/App';
+import TigerPath from 'components/TigerPath';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import 'styles/Courses.css';
 import 'styles/Requirements.css';
@@ -14,8 +14,7 @@ ReactDOM.render(
       <Route path="/courses">TODO: Courses View</Route>
       <Route path="/list">TODO: List View</Route>
       <Route path="/tigerpath">
-        <App />
-        {/* TODO: Refactor App to TigerPath */}
+        <TigerPath />
       </Route>
     </Switch>
   </Router>,
