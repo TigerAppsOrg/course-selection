@@ -134,6 +134,16 @@ export default class App extends Component {
   render() {
     return (
       <ThemeProvider theme={COURSESELECTION_THEME}>
+                <nav className="navbar navbar-expand-lg navbar-dark">
+            <div className="container">
+              <a className="navbar-brand" href="{% url 'index' %}">CourseSelection</a>
+              <div>
+                <a className="btn nav-btn" href="{% url 'about' %}" rel="noopener noreferrer">Courses</a>
+                <a className="btn nav-btn" href="https://goo.gl/forms/T0pnhwdBYIS8mM6q1" rel="noopener noreferrer">List</a>
+                <a className="btn nav-btn" href="{% url 'index' %}" rel="noopener noreferrer">TigerPath</a>
+              </div>
+            </div>
+          </nav>
         <React.Fragment>
           <h1 className="print-only">My Four Year Schedule</h1>
           <p className="print-only">
