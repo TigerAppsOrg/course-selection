@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import NavBar from 'components/shared/NavBar';
 import TigerPath from 'views/TigerPath';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import 'styles/Courses.css';
@@ -7,7 +8,6 @@ import 'styles/Requirements.css';
 import 'styles/Print.css';
 import 'styles/Menu.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import NavBar from './components/shared/Navbar';
 
 ReactDOM.render(
   <Router>
