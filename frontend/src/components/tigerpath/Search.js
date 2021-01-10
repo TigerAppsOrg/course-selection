@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import SearchCard from 'components/SearchCard';
+import SearchCard from 'components/tigerpath/SearchCard';
 
 export default class Search extends Component {
   constructor(props) {

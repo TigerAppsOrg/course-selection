@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TigerPath from 'components/TigerPath';
+import TigerPath from 'views/TigerPath';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import 'styles/Courses.css';
 import 'styles/Requirements.css';
