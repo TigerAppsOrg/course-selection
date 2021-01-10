@@ -8,13 +8,20 @@ import 'styles/Requirements.css';
 import 'styles/Print.css';
 import 'styles/Menu.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import CoursesInfo from './views/CoursesInfo';
+import CoursesList from './views/CoursesList';
 
 ReactDOM.render(
   <Router>
     <NavBar />
     <Switch>
-      <Route path="/courses">TODO: Courses View</Route>
-      <Route path="/list">TODO: List View</Route>
+      <Route path="/courses">
+        <CoursesInfo />{' '}
+      </Route>
+      <Route path="/list">
+        {' '}
+        <CoursesList />{' '}
+      </Route>
       <Route path="/tigerpath">
         <TigerPath />
       </Route>
