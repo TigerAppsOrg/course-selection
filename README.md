@@ -53,3 +53,13 @@ git push heroku <local_branch_name>:master                    # Push to the Hero
 
 ## TODO
 Admin setup - through Django
+
+### Credits - TODO
+
+TigerPath is a web app that helps Princeton University students plan out their four-year course schedules. It began as a COS 333 project by Richard Chu, Barak Nehoran, Adeniji Ogunlana, and Daniel Leung. tigerpath.io
+
+PrincetonCourses
+
+Recal
+
+PrincetonPounce
