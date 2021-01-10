@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import { ajaxSetup } from 'AjaxSetup';
-import Search from 'components/Search';
-import MainView from 'components/MainView';
-import Requirements from 'components/Requirements';
+import Search from 'components/tigerpath/Search';
+import MainView from 'components/tigerpath/MainView';
+import Requirements from 'components/tigerpath/Requirements';
 import { DragDropContext } from 'react-beautiful-dnd';
 import { ThemeProvider } from 'styled-components';
 import { COURSESELECTION_THEME } from 'styles/theme';
@@ -11,7 +11,7 @@ import { DEFAULT_SCHEDULE } from 'utils/SemesterUtils';
 
 const RADIX = 10;
 
-export default class App extends Component {
+export default class TigerPath extends Component {
   constructor(props) {
     super(props);
     ajaxSetup();

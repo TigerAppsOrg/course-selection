@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import Semester from 'components/Semester';
+import Semester from 'components/tigerpath/Semester';
 import styled from 'styled-components';
 import { getSemesterNames } from 'utils/SemesterUtils';
 import { addPopover } from 'Popover';

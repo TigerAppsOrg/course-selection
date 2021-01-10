@@ -268,7 +268,7 @@ def update_schedule(request):
     current_user = request.user.profile
     current_user.user_schedule = ujson.loads(request.POST.get('schedule', '[]'))
     current_user.save()
-    return HttpResponse(ujson.dumps(request, ensure_ascii=False), content_type='application/json')
+    return HttpResponse(ujson.dumps(current_user.user_schedule, ensure_ascii=False), content_type='application/json')
 
 # returns user's existing schedule
 @login_required
