@@ -16,15 +16,15 @@ ReactDOM.render(
     <NavBar />
     <Switch>
       <Route path="/courses">
-        <CoursesInfo />{' '}
+        <CoursesInfo />
       </Route>
       <Route path="/list">
-        {' '}
-        <CoursesList />{' '}
+        <CoursesList />
       </Route>
       <Route path="/tigerpath">
         <TigerPath />
       </Route>
+      <Route path="/">TODO - main page</Route>
     </Switch>
   </Router>,
   document.getElementById('app')
