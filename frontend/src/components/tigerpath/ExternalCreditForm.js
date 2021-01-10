@@ -7,7 +7,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import Alert from 'react-bootstrap/Alert';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import RequirementsDropdown from 'components/RequirementsDropdown';
+import RequirementsDropdown from 'components/tigerpath/RequirementsDropdown';
 import {
   DEFAULT_SCHEDULE,
   EXTERNAL_CREDITS_SEMESTER_INDEX,

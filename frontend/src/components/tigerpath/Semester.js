@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CourseCard from 'components/CourseCard';
+import CourseCard from 'components/tigerpath/CourseCard';
 import { Droppable } from 'react-beautiful-dnd';
 import styled from 'styled-components';
 import {

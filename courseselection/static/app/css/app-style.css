@@ -11,21 +11,6 @@ h6 {
   font-weight: 700;
 }
 
-.navbar {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: medium;
-  background-color: #464e56 !important;
-}
-
-.nav-btn {
-  color: white;
-}
-
-.nav-btn:hover, .nav-btn:focus, .nav-btn:active, .nav-btn.active, .open>.dropdown-toggle.nav-btn {
-  color: #fff;
-  background-color: #3d8af7;
-}
-
 #netid-dropdown a:hover {
   background-color: #ddd;
 }

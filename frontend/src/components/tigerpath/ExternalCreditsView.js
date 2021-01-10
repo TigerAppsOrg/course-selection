@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Semester from 'components/Semester';
-import CourseCard from 'components/CourseCard';
-import ExternalCreditForm from 'components/ExternalCreditForm';
+import Semester from 'components/tigerpath/Semester';
+import CourseCard from 'components/tigerpath/CourseCard';
+import ExternalCreditForm from 'components/tigerpath/ExternalCreditForm';
 import { EXTERNAL_CREDITS_SEMESTER_INDEX } from 'utils/SemesterUtils';
 
 const ECContent = styled.div`
