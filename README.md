@@ -5,7 +5,7 @@
 
 ### Pipenv
 
-1. `git clone` this repository. Install [Python 3.6](https://www.python.org), [node.js](https://nodejs.org/en/), and [pipenv](https://github.com/pypa/pipenv) (which helps you manage your dependencies).
+1. `git clone` this repository. Install [Python 3.8](https://www.python.org), [node.js](https://nodejs.org/en/), and [pipenv](https://github.com/pypa/pipenv) (which helps you manage your dependencies).
 
 2. Run `cd courseselection && pipenv install` to install all of the current dependencies from Pipfile.lock.
 
@@ -53,6 +53,11 @@ git push heroku <local_branch_name>:master                    # Push to the Hero
 
 ## TODO
 Admin setup - through Django
+
+## Technologies TODO
+- Django v. 
+- Node v.
+- Python 3.8.
 
 ### Credits - TODO
 
