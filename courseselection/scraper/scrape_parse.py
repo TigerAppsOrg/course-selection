@@ -191,11 +191,9 @@ def scrape_parse_semester(term_code):
         departments = list(DEPTS.keys())
         length = len(departments)
         courses = []
-        # print(departments)
         for index, department in enumerate(departments):
             print('Scraping department {} of {}: {}'.format(index+1, length, department))
             courses += scrape('MAT')
-            break
         return courses
 
     # goes through the listings for this department
@@ -209,7 +207,6 @@ def scrape_parse_semester(term_code):
         xmldoc = urlopen(link)
         tree = etree.parse(xmldoc, parser)
         dep_courses = tree.getroot()
-        # print(etree.tostring(dep_courses, pretty_print=True))
         remove_namespace(dep_courses, PTON_NAMESPACE)
         parsed_courses = []
         for term in dep_courses:
@@ -217,10 +214,7 @@ def scrape_parse_semester(term_code):
                 for subject in subjects:
                     for courses in subject:
                         for course in courses:
-                            # print(etree.tostring(course, pretty_print=True))
-                            # print(course)
                             x = parse_course(course, subject)
-                            # print(x)
                             if x is not None:
                                 parsed_courses.append(x)
         return parsed_courses
@@ -333,8 +327,4 @@ def scrape_parse_semester(term_code):
             if elem.tag.startswith(ns):
                 elem.tag = elem.tag[nsl:]
 
-    # print(get_current_semester())
-    # print(scrape_all())
     return scrape_all()
-
-scrape_parse_semester(1202)
