@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<courseofferings xmlns="http://as.oit.princeton.edu/xml/courseofferings-2_0">
+    <term>
+        <code>1214</code>
+        <suffix>S2021</suffix>
+        <name>S20-21</name>
+        <cal_name>Spring 2021</cal_name>
+        <reg_name>20-21 Spr</reg_name>
+        <start_date>2021-02-01</start_date>
+        <end_date>2021-05-25</end_date>
+    </term>
+</courseofferings>
