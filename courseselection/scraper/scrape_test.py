@@ -5,10 +5,13 @@ import re
 from xml.etree import ElementTree
 import requests
 
+# TODO: 
+#       
+
 TERM_CODE=1202
 CURRENT_SEMESTER = ['']
 h = HTMLParser()
-bearer_token = "Bearer ZDRiNmI3OTctYTQxNS0zYWFlLWI3ZDMtN2IwMzBmMDQ2MTZiOmNvdXJzZXMtYXBwc0BjYXJib24uc3VwZXI="
+bearer_token = ""
 
 class ParseError(Exception):
 
@@ -60,7 +63,6 @@ def parse_course(course, subject):
     try:
         #global new_course_count
         #global course_count
-        # print(get_text('title', course))
         return {
             "title": get_text('title', course),
             "guid": get_text('guid', course),
@@ -91,7 +93,7 @@ def parse_listings(course, subject):
             'is_primary': False
         }
     cross_listings = [parse_cross_listing(
-        x) for x in none_to_empty_list(course.find('crosslistings'))]
+        x) for x in none_to_empty_list(course.find('{http://as.oit.princeton.edu/xml/courseofferings-2_0}crosslistings'))]
     primary_listing = {
         'dept': get_text('code', subject),
         'code': get_text('catalog_number', course),
@@ -139,30 +141,23 @@ def parse_section(section):
         'meetings': [parse_meeting(x) for x in none_to_empty_list(meetings)]
     }
 
-link = "https://api.princeton.edu:443/mobile-app/1.0.0/courses/courses?term=1202&subject=MAT"
-headers={
-    "accept": "application/json",
-    "Authorization": bearer_token
-}
-response = requests.get(link, headers=headers)
-tree = ElementTree.ElementTree(ElementTree.fromstring(response.text))
-root = tree.getroot()
+# link = "https://api.princeton.edu:443/mobile-app/1.0.0/courses/courses?term=1202&subject=MAT"
+# headers={
+#     "accept": "application/json",
+#     "Authorization": bearer_token
+# }
+# response = requests.get(link, headers=headers)
+# tree = ElementTree.ElementTree(ElementTree.fromstring(response.text))
+# root = tree.getroot()
 
 # ISSUE: no distribution area data
-parsed_courses = []
-for term in root:
-    for item in term:
-        for subjects in item:
-            for subject in subjects:
-                for courses in subject:
-                    # for course in courses:
-                    # print(courses.tag, courses.attrib)
-                    # print(courses)
-                    # print(courses.find('{http://as.oit.princeton.edu/xml/courseofferings-2_0}detail')
-                    # .find('{http://as.oit.princeton.edu/xml/courseofferings-2_0}description')
-                    # .text)
-                    x = parse_course(courses,subject)
-                    if x is not None:
-                        parsed_courses.append(x)
-                    # print(x)
+# parsed_courses = []
+# for term in root:
+#     for item in term:
+#         for subjects in item:
+#             for subject in subjects:
+#                 for courses in subject:
+#                     x = parse_course(courses,subject)
+#                     if x is not None:
+#                         parsed_courses.append(x)
 # print(parsed_courses)
