@@ -1,0 +1,109 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.text {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 3px;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.seperate {
+    justify-content: space-between;
+    align-items: center;
+}
+.main-view {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #f1f2f2;
+}
+
+.search-column {
+  height: 100vh;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.details-column {
+  height: 100vh;
+  background-color: #e2e2e2;
+  min-width: 60vw;
+  max-width: 80vw;
+}
+
+.course-header {
+  /* height: 80px;  */
+  display: flex;
+  height: 17%;
+  background-color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 3px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.title {
+ font-size: 24px;
+ line-height: 30px;
+}
+
+.section-header {
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+   line-height: 0px;
+  text-align: left;
+}
+
+.scrollable-column {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.section {
+  display: flex;
+  background-color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  height: 35px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+.white {
+  color: white;
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+.header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  line-height: 15px;
+}
