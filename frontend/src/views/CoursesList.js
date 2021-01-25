@@ -7,7 +7,7 @@ import '../styles/CourseInfo.css';
 import Search from '../components/tigerpath/Search.js';
 import CourseDetails from '../components/courseinfo/CourseDetails'
 
-const CoursesList = (props) => {
+const CourseList = (props) => {
   ajaxSetup();
   const [profile, setProfile] = useState(null);
   const [searchQuery, setSearchQuery] = useState([]); 
