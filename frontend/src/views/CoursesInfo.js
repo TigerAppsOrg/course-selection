@@ -18,12 +18,13 @@ const CoursesInfo = (props) => {
     department: 'COS', 
     code: '126', 
     crossList : 'EGR', 
+    review: 'it is good', 
     tags: ['EC', 'NO AUDIT', 'PDF'], 
     rating: [4.01], 
-    description: ['Introduction to the principles underlying chemical and biochemical engineering. This course begins with the basics of engineering calculations, and continues on to the core subjects of material and energy balances in single and multi-phase systems; both with and without reactions. The topics in this course lay the bedrock for the remaining CBE curriculum, and students will see the subjects that they learn here time and again in their future CBE courses.']
+    description: ['Introduction to the principles underlying chemical and biochemical engineering. This course begins with the basics of engineering calculations, and continues on to the core subjects of material and energy balances in single and multi-phase systems; both with and without reactions. The topics in this course lay the bedrock for the remaining CBE curriculum, and students will see the subjects that they learn here time and again in their future CBE courses.'], 
   }; 
 
-
+  console.log('Displaying WTF', course);
   useEffect(() => {
     fetchProfile();
   }, []);

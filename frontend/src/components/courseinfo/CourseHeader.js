@@ -44,15 +44,6 @@ const CourseHeader = (props) => {
         {props.course.title}
       </p>
       <div className="column" style={{ flex: 1, justifyContent: 'flex-end' }}>
-        <div
-          className="column"
-          style={{  backgroundColor: backColor, height: "30%", borderRadius: '15px' }}
-        >
-          <h1 className="text white header "> {rating.toPrecision(3)} </h1>
-        </div>
-
-
-        <p> ec</p>
       </div>
     </div>
   );
