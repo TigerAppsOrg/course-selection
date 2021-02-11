@@ -5,7 +5,9 @@ import { ThemeProvider } from 'styled-components';
 import { COURSESELECTION_THEME } from 'styles/theme';
 import '../styles/CourseInfo.css';
 import Search from '../components/tigerpath/Search.js';
+import Calendar from '../components/courselist/Calendar'
 import CourseDetails from '../components/courseinfo/CourseDetails'
+
 
 const CourseList = (props) => {
   ajaxSetup();
@@ -41,17 +43,11 @@ const CourseList = (props) => {
   return (
     <ThemeProvider theme={COURSESELECTION_THEME}>
       <div className="main-view">
-      {/* <div id="search-pane" className="col-lg-2 pl-0 pr-0 dont-print" id = 'search-column'>
-          <Search
-            onChange={setSearchQuery}
-            searchQuery={searchQuery}
-            searchResults={searchResults}
-          />
-        </div> */}
         <div className = 'search-column'> 
           <p> Search Bar </p>
         </div>
-        <CourseDetails course = {course} /> 
+        <Calendar calendar = {course} /> 
+        {/* <CourseDetails course = {course} />  */}
         <div className = 'shopping-cart'>
           <p> Cart </p>
         </div>

@@ -4,13 +4,10 @@ import { ajaxSetup } from 'AjaxSetup';
 import { ThemeProvider } from 'styled-components';
 import { COURSESELECTION_THEME } from 'styles/theme';
 import '../../styles/CourseList.css';
-import HourBox from './HourBox';
-import DayBox from './DayBox';
-
 const DayColumn = (props) => {
   ajaxSetup();
   const [profile, setProfile] = useState(null);
-  const day = props.day;
+  const time = props.time;
 
   useEffect(() => {
     fetchProfile();
@@ -28,24 +25,9 @@ const DayColumn = (props) => {
   };
 
   return (
-    <div>
-      <DayBox dotw={day}/>
-      <HourBox time={"8am"}/>
-      <div className="course"></div>
-      <HourBox time={"9am"}/>
-      <HourBox time={"10am"}/> 
-      <HourBox time={"11am"}/>
-      <HourBox time={"12pm"}/>
-      <HourBox time={"1pm"}/>
-      <HourBox time={"2pm"}/>
-      <HourBox time={"3pm"}/>
-      <HourBox time={"4pm"}/>
-      <HourBox time={"5pm"}/>
-      <HourBox time={"6pm"}/>
-      <HourBox time={"7pm"}/>
-      <HourBox time={"8pm"}/>
-      <HourBox time={"9pm"}/>
-      <HourBox time={"10pm"}/>
+    <div className="hour-box">
+      {/* <p className="section-header"> Ratings </p> */}
+      <p className="time">{time}</p>
     </div>
   );
 };
