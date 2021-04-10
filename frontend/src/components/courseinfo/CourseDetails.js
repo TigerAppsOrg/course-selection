@@ -55,7 +55,7 @@ const CourseDetails = (props) => {
           <p className="section-header"> Reviews </p>
 
           {course.reviews.map((review) => (
-            <div className="background">
+            <div className="background" key={review}>
               <p className="text-normal"> {review} </p>
             </div>
           ))}
@@ -74,17 +74,16 @@ const CourseDetails = (props) => {
               viewBoxSize={[10, 10]}
               label={(data) => '%' + data.dataEntry.value}
               labelStyle={{
-                fontSize: "1px",
-                fontFamily: 'Open Sans', 
-                fontWeight: "1px",
-                fontColor: "#FFFFFA"  
+                fontSize: '1px',
+                fontFamily: 'Open Sans',
+                fontWeight: '1px',
+                fontColor: '#FFFFFA',
               }}
               data={[
                 { title: 'One', value: 10, color: '#E38627' },
                 { title: 'Two', value: 15, color: '#C13C37' },
                 { title: 'Three', value: 20, color: '#6A2135' },
               ]}
-              
             />
           </div>
         </div>

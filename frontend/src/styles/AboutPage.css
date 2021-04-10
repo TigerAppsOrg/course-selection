@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.about-page {
+  height: 100vh;
+  background-color: #353f4b;
+}
+
+.links {
+  color: white;
+  padding: 20px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.links:hover {
+  font-weight: 600;
+}
+
+.links-div {
+  display: flex;
+  justify-content: flex-end;
+}
