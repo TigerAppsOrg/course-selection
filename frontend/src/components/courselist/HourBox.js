@@ -27,7 +27,7 @@ const DayColumn = (props) => {
   return (
     <div className="hour-box">
       {/* <p className="section-header"> Ratings </p> */}
-      <p className="time">{time}</p>
+      {props.isMonday ? <p className="time">{time}</p> : null} 
     </div>
   );
 };
