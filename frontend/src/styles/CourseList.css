@@ -164,8 +164,44 @@
   overflow-x: scroll;
   /* display: flex; */
   flex-direction: row;
-  width: 155px;
+  width: 185px;
   position: absolute;
-  margin-right: 5px; 
+  margin-left: 0.5px; 
+}
+
+.course-code {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  align-items: center;
+  /* text-align: center; */
+  /* flex-direction: column; */
   margin-left: 5px; 
+  justify-content: center;
+  color:white;
+}
+
+.course-time {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  align-items: center;
+  /* text-align: center; */
+  /* flex-direction: column; */
+  margin-left: 5px; 
+  justify-content: center;
+  color:white;
+}
+
+.course-capacity {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 10px;
+  text-align: right;
+  /* flex-direction: column; */
+  /* margin-top: 10px; */
+  margin-right: 5px; 
+  color:white;
 }

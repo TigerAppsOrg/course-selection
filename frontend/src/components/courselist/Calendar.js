@@ -11,11 +11,11 @@ import DayColumn from './DayColumn';
 const Calendar = (props) => {
   ajaxSetup();
   const [profile, setProfile] = useState(null);
-  const monClasses = [{code: "COS126", time: 1000, duration: 80}];
-  const tueClasses = [{code: "LIN201", time: 1300, duration: 50}, {code: "EGR330", time: 1400, duration: 50}];
-  const wedClasses = [{code: "COS126", time: 1000, duration: 80}];
-  const thuClasses = [{code: "LIN201", time: 1300, duration: 50}, {code: "EGR330", time: 1400, duration: 50}];
-  const friClasses = [{code: "VIS265", time: 1250, duration: 80}];
+  const monClasses = [{code: "COS126", time: 1000, duration: 80, capacity: "180/200", color: "#375C92"}];
+  const tueClasses = [{code: "LIN201", time: 1300, duration: 50, capacity: "100/100", color: "#2D6334"}, {code: "EGR330", time: 1950, duration: 50, capacity: "28/30", color: "#614A95"}];
+  const wedClasses = [{code: "COS126", time: 1000, duration: 80, capacity: "180/200", color: "#375C92"}];
+  const thuClasses = [{code: "LIN201", time: 1300, duration: 50, capacity: "100/100", color: "#2D6334"}, {code: "EGR330", time: 1950, duration: 50, capacity: "28/30", color: "#614A95"}];
+  const friClasses = [{code: "VIS265", time: 1250, duration: 80, capacity: "9/10", color: "#954962"}];
   useEffect(() => {
     fetchProfile();
   }, []);

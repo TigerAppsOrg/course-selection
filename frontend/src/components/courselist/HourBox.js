@@ -12,7 +12,7 @@ const DayColumn = (props) => {
   useEffect(() => {
     fetchProfile();
   }, []);
-  console.log('Displaying Course', props.course);
+  // console.log('Displaying Course', props.course);
 
   // Example API request
   const fetchProfile = () => {
